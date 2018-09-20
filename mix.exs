@@ -43,7 +43,7 @@ defmodule Commanded.Scheduler.Mixfile do
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false},
       {:postgrex, ">= 0.0.0"},
       {:timex, "~> 3.1"},
-      {:uuid, "~> 1.1"},
+      {:elixir_uuid, "~> 1.2"},
     ]
   end
 end
